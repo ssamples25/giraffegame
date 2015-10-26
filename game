@@ -1,0 +1,28 @@
+.background    { background-image: url("http://globe-views.com/dcim/dreams/sky/sky-05.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(0, 0, 0); }
+.wall          { background: rgb(210, 180, 140);   }
+.trunk		   { background: rgb(102, 51, 0);   }
+.leaves		   { background: rgb(76, 153, 0);   }
+.villain	   {background: url("../images/lion.gif");  }
+
+.actor  { position: absolute;  }
+.coin   { background: url("../images/leaf.png"); }
+.player { background: url("../images/giraffe.gif"); }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(204, 0, 0);
+}
+.won .player {
+  box-shadow: -4px -7px 8px purple, 4px -7px 8px purple;
+}
